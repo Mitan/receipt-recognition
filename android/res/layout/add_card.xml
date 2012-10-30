@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <LinearLayout
+            android:id="@+id/layoutFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name: ">
+        </TextView>
+        <EditText
+                android:id="@+id/FirstName"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/layoutLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name: ">
+        </TextView>
+        <EditText
+                android:id="@+id/LastName"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+    </LinearLayout>
+    <Button
+            android:id="@+id/okButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ADD"
+            />
+</LinearLayout>
